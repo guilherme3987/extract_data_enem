@@ -58,3 +58,8 @@
 [2026-03-21T22:15:55.993+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:15:55.993+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/config.py
 [2026-03-21T22:15:55.997+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/config.py
 [2026-03-21T22:15:56.037+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/config.py took 0.061 seconds
+[2026-03-21T22:16:26.943+0000] {processor.py:161} INFO - Started process (PID=411) to work on /opt/airflow/dags/config.py
+[2026-03-21T22:16:26.946+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/config.py for tasks to queue
+[2026-03-21T22:16:26.949+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:16:26.948+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/config.py
+[2026-03-21T22:16:26.952+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/config.py
+[2026-03-21T22:16:26.979+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/config.py took 0.047 seconds
