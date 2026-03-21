@@ -3445,3 +3445,101 @@ ImportError: cannot import name 'extract_all_questions' from 'extract_questions'
 [2026-03-21T22:08:02.742+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:08:02.741+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2026-03-21T22:08:02.825+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:08:02.825+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_enem_extraction to None, run_after=None
 [2026-03-21T22:08:03.016+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extract_data.py took 1.014 seconds
+[2026-03-21T22:08:33.802+0000] {processor.py:161} INFO - Started process (PID=271) to work on /opt/airflow/dags/extract_data.py
+[2026-03-21T22:08:33.804+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2026-03-21T22:08:33.808+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:08:33.807+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2026-03-21T22:08:33.825+0000] {processor.py:840} INFO - DAG(s) 'dag_enem_extraction' retrieved from /opt/airflow/dags/extract_data.py
+[2026-03-21T22:08:33.878+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:08:33.878+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-21T22:08:33.898+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:08:33.898+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_enem_extraction to None, run_after=None
+[2026-03-21T22:08:33.927+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extract_data.py took 0.136 seconds
+[2026-03-21T22:09:04.727+0000] {processor.py:161} INFO - Started process (PID=276) to work on /opt/airflow/dags/extract_data.py
+[2026-03-21T22:09:04.728+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2026-03-21T22:09:04.731+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:09:04.730+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2026-03-21T22:09:04.745+0000] {processor.py:840} INFO - DAG(s) 'dag_enem_extraction' retrieved from /opt/airflow/dags/extract_data.py
+[2026-03-21T22:09:04.787+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:09:04.787+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-21T22:09:04.804+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:09:04.803+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_enem_extraction to None, run_after=None
+[2026-03-21T22:09:04.834+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extract_data.py took 0.116 seconds
+[2026-03-21T22:09:35.598+0000] {processor.py:161} INFO - Started process (PID=281) to work on /opt/airflow/dags/extract_data.py
+[2026-03-21T22:09:35.600+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2026-03-21T22:09:35.603+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:09:35.602+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2026-03-21T22:09:35.615+0000] {processor.py:840} INFO - DAG(s) 'dag_enem_extraction' retrieved from /opt/airflow/dags/extract_data.py
+[2026-03-21T22:09:35.654+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:09:35.654+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-21T22:09:35.671+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:09:35.671+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_enem_extraction to None, run_after=None
+[2026-03-21T22:09:35.696+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extract_data.py took 0.105 seconds
+[2026-03-21T22:10:06.549+0000] {processor.py:161} INFO - Started process (PID=286) to work on /opt/airflow/dags/extract_data.py
+[2026-03-21T22:10:06.550+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2026-03-21T22:10:06.553+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:10:06.552+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2026-03-21T22:10:06.571+0000] {processor.py:840} INFO - DAG(s) 'dag_enem_extraction' retrieved from /opt/airflow/dags/extract_data.py
+[2026-03-21T22:10:06.616+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:10:06.615+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-21T22:10:06.640+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:10:06.639+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_enem_extraction to None, run_after=None
+[2026-03-21T22:10:06.668+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extract_data.py took 0.132 seconds
+[2026-03-21T22:10:37.504+0000] {processor.py:161} INFO - Started process (PID=296) to work on /opt/airflow/dags/extract_data.py
+[2026-03-21T22:10:37.507+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2026-03-21T22:10:37.509+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:10:37.509+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2026-03-21T22:10:37.525+0000] {processor.py:840} INFO - DAG(s) 'dag_enem_extraction' retrieved from /opt/airflow/dags/extract_data.py
+[2026-03-21T22:10:37.568+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:10:37.568+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-21T22:10:37.587+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:10:37.587+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_enem_extraction to None, run_after=None
+[2026-03-21T22:10:37.615+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extract_data.py took 0.119 seconds
+[2026-03-21T22:11:08.394+0000] {processor.py:161} INFO - Started process (PID=306) to work on /opt/airflow/dags/extract_data.py
+[2026-03-21T22:11:08.395+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2026-03-21T22:11:08.399+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:11:08.397+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2026-03-21T22:11:08.417+0000] {processor.py:840} INFO - DAG(s) 'dag_enem_extraction' retrieved from /opt/airflow/dags/extract_data.py
+[2026-03-21T22:11:08.460+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:11:08.460+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-21T22:11:08.482+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:11:08.482+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_enem_extraction to None, run_after=None
+[2026-03-21T22:11:08.512+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extract_data.py took 0.126 seconds
+[2026-03-21T22:11:39.386+0000] {processor.py:161} INFO - Started process (PID=316) to work on /opt/airflow/dags/extract_data.py
+[2026-03-21T22:11:39.388+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2026-03-21T22:11:39.390+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:11:39.390+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2026-03-21T22:11:39.408+0000] {processor.py:840} INFO - DAG(s) 'dag_enem_extraction' retrieved from /opt/airflow/dags/extract_data.py
+[2026-03-21T22:11:39.451+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:11:39.450+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-21T22:11:39.467+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:11:39.466+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_enem_extraction to None, run_after=None
+[2026-03-21T22:11:39.497+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extract_data.py took 0.118 seconds
+[2026-03-21T22:12:10.457+0000] {processor.py:161} INFO - Started process (PID=326) to work on /opt/airflow/dags/extract_data.py
+[2026-03-21T22:12:10.461+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2026-03-21T22:12:10.469+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:12:10.468+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2026-03-21T22:12:10.515+0000] {processor.py:840} INFO - DAG(s) 'dag_enem_extraction' retrieved from /opt/airflow/dags/extract_data.py
+[2026-03-21T22:12:10.608+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:12:10.607+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-21T22:12:10.645+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:12:10.645+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_enem_extraction to None, run_after=None
+[2026-03-21T22:12:10.693+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extract_data.py took 0.255 seconds
+[2026-03-21T22:12:41.643+0000] {processor.py:161} INFO - Started process (PID=336) to work on /opt/airflow/dags/extract_data.py
+[2026-03-21T22:12:41.645+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2026-03-21T22:12:41.647+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:12:41.647+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2026-03-21T22:12:41.662+0000] {processor.py:840} INFO - DAG(s) 'dag_enem_extraction' retrieved from /opt/airflow/dags/extract_data.py
+[2026-03-21T22:12:41.716+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:12:41.715+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-21T22:12:41.759+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:12:41.758+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_enem_extraction to None, run_after=None
+[2026-03-21T22:12:41.806+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extract_data.py took 0.173 seconds
+[2026-03-21T22:13:12.545+0000] {processor.py:161} INFO - Started process (PID=346) to work on /opt/airflow/dags/extract_data.py
+[2026-03-21T22:13:12.547+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2026-03-21T22:13:12.559+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:13:12.557+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2026-03-21T22:13:12.589+0000] {processor.py:840} INFO - DAG(s) 'dag_enem_extraction' retrieved from /opt/airflow/dags/extract_data.py
+[2026-03-21T22:13:12.636+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:13:12.636+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-21T22:13:12.652+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:13:12.652+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_enem_extraction to None, run_after=None
+[2026-03-21T22:13:12.693+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extract_data.py took 0.156 seconds
+[2026-03-21T22:13:43.511+0000] {processor.py:161} INFO - Started process (PID=356) to work on /opt/airflow/dags/extract_data.py
+[2026-03-21T22:13:43.513+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2026-03-21T22:13:43.516+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:13:43.515+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2026-03-21T22:13:43.530+0000] {processor.py:840} INFO - DAG(s) 'dag_enem_extraction' retrieved from /opt/airflow/dags/extract_data.py
+[2026-03-21T22:13:43.583+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:13:43.582+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-21T22:13:43.604+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:13:43.604+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_enem_extraction to None, run_after=None
+[2026-03-21T22:13:43.634+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extract_data.py took 0.139 seconds
+[2026-03-21T22:14:14.451+0000] {processor.py:161} INFO - Started process (PID=366) to work on /opt/airflow/dags/extract_data.py
+[2026-03-21T22:14:14.452+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2026-03-21T22:14:14.454+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:14:14.454+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2026-03-21T22:14:14.466+0000] {processor.py:840} INFO - DAG(s) 'dag_enem_extraction' retrieved from /opt/airflow/dags/extract_data.py
+[2026-03-21T22:14:14.502+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:14:14.502+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-21T22:14:14.518+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:14:14.518+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_enem_extraction to None, run_after=None
+[2026-03-21T22:14:14.543+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extract_data.py took 0.099 seconds
+[2026-03-21T22:14:45.380+0000] {processor.py:161} INFO - Started process (PID=376) to work on /opt/airflow/dags/extract_data.py
+[2026-03-21T22:14:45.382+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2026-03-21T22:14:45.384+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:14:45.384+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2026-03-21T22:14:45.398+0000] {processor.py:840} INFO - DAG(s) 'dag_enem_extraction' retrieved from /opt/airflow/dags/extract_data.py
+[2026-03-21T22:14:45.439+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:14:45.439+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-21T22:14:45.456+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:14:45.456+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_enem_extraction to None, run_after=None
+[2026-03-21T22:14:45.481+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extract_data.py took 0.108 seconds
+[2026-03-21T22:15:16.269+0000] {processor.py:161} INFO - Started process (PID=386) to work on /opt/airflow/dags/extract_data.py
+[2026-03-21T22:15:16.270+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2026-03-21T22:15:16.272+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:15:16.272+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2026-03-21T22:15:16.287+0000] {processor.py:840} INFO - DAG(s) 'dag_enem_extraction' retrieved from /opt/airflow/dags/extract_data.py
+[2026-03-21T22:15:16.331+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:15:16.330+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-21T22:15:16.351+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:15:16.351+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_enem_extraction to None, run_after=None
+[2026-03-21T22:15:16.378+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extract_data.py took 0.116 seconds

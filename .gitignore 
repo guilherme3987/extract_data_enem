@@ -1,0 +1,19 @@
+# Docker
+docker-compose.yaml
+docker-compose.yml
+Dockerfile
+.env
+
+# Airflow
+logs/
+dags/__pycache__/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Sistema
+.DS_Store
+Thumbs.db
