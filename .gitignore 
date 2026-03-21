@@ -6,12 +6,13 @@ Dockerfile
 
 # Airflow
 logs/
-dags/__pycache__/
 
-# Python
+# Cache Python
 __pycache__/
+**/__pycache__/
 *.py[cod]
 *.pyo
+*.pycache
 .pytest_cache/
 
 # Sistema
