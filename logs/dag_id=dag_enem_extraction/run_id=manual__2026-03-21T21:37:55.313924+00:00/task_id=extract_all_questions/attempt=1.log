@@ -1,0 +1,43 @@
+[2026-03-21T21:38:15.875+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-21T21:38:15.920+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_enem_extraction.extract_all_questions manual__2026-03-21T21:37:55.313924+00:00 [queued]>
+[2026-03-21T21:38:15.935+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_enem_extraction.extract_all_questions manual__2026-03-21T21:37:55.313924+00:00 [queued]>
+[2026-03-21T21:38:15.936+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-03-21T21:38:15.955+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): extract_all_questions> on 2026-03-21 21:37:55.313924+00:00
+[2026-03-21T21:38:15.970+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'dag_enem_extraction', 'extract_all_questions', 'manual__2026-03-21T21:37:55.313924+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/extract_data.py', '--cfg-path', '/tmp/tmpt3rddp_g']
+[2026-03-21T21:38:15.974+0000] {standard_task_runner.py:91} INFO - Job 11: Subtask extract_all_questions
+[2026-03-21T21:38:15.978+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=659) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-03-21T21:38:15.979+0000] {standard_task_runner.py:63} INFO - Started process 660 to run task
+[2026-03-21T21:38:16.111+0000] {task_command.py:426} INFO - Running <TaskInstance: dag_enem_extraction.extract_all_questions manual__2026-03-21T21:37:55.313924+00:00 [running]> on host 6ad5110f5d52
+[2026-03-21T21:38:16.380+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dag_enem_extraction' AIRFLOW_CTX_TASK_ID='extract_all_questions' AIRFLOW_CTX_EXECUTION_DATE='2026-03-21T21:37:55.313924+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-21T21:37:55.313924+00:00'
+[2026-03-21T21:38:16.382+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-21T21:38:16.405+0000] {extract_questions.py:39} INFO - 📅 Anos encontrados: ['2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023']
+[2026-03-21T21:38:16.436+0000] {extract_questions.py:84} INFO -    ✅ Ano 2009: 179 questões extraídas.
+[2026-03-21T21:38:16.482+0000] {extract_questions.py:84} INFO -    ✅ Ano 2010: 185 questões extraídas.
+[2026-03-21T21:38:16.527+0000] {extract_questions.py:84} INFO -    ✅ Ano 2011: 184 questões extraídas.
+[2026-03-21T21:38:16.545+0000] {extract_questions.py:84} INFO -    ✅ Ano 2012: 185 questões extraídas.
+[2026-03-21T21:38:16.567+0000] {extract_questions.py:84} INFO -    ✅ Ano 2013: 185 questões extraídas.
+[2026-03-21T21:38:16.594+0000] {extract_questions.py:84} INFO -    ✅ Ano 2014: 185 questões extraídas.
+[2026-03-21T21:38:16.619+0000] {extract_questions.py:84} INFO -    ✅ Ano 2015: 184 questões extraídas.
+[2026-03-21T21:38:16.648+0000] {extract_questions.py:84} INFO -    ✅ Ano 2016: 185 questões extraídas.
+[2026-03-21T21:38:16.680+0000] {extract_questions.py:84} INFO -    ✅ Ano 2017: 185 questões extraídas.
+[2026-03-21T21:38:16.715+0000] {extract_questions.py:84} INFO -    ✅ Ano 2018: 184 questões extraídas.
+[2026-03-21T21:38:16.747+0000] {extract_questions.py:84} INFO -    ✅ Ano 2019: 181 questões extraídas.
+[2026-03-21T21:38:16.785+0000] {extract_questions.py:84} INFO -    ✅ Ano 2020: 182 questões extraídas.
+[2026-03-21T21:38:16.817+0000] {extract_questions.py:84} INFO -    ✅ Ano 2021: 185 questões extraídas.
+[2026-03-21T21:38:16.843+0000] {extract_questions.py:84} INFO -    ✅ Ano 2022: 185 questões extraídas.
+[2026-03-21T21:38:16.869+0000] {extract_questions.py:84} INFO -    ✅ Ano 2023: 183 questões extraídas.
+[2026-03-21T21:38:16.996+0000] {extract_questions.py:89} INFO - 💾 JSON salvo em: /tmp/enem_output/questions.json
+[2026-03-21T21:38:17.120+0000] {extract_questions.py:98} INFO - 💾 CSV  salvo em: /tmp/enem_output/questions.csv
+[2026-03-21T21:38:17.121+0000] {logging_utils.py:8} INFO - ============================================================
+[2026-03-21T21:38:17.121+0000] {logging_utils.py:9} INFO - RESUMO DA EXTRAÇÃO
+[2026-03-21T21:38:17.121+0000] {logging_utils.py:10} INFO - ============================================================
+[2026-03-21T21:38:17.122+0000] {logging_utils.py:11} INFO - Anos processados : 15 ['2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023']
+[2026-03-21T21:38:17.122+0000] {logging_utils.py:12} INFO - Total de questões: 2757
+[2026-03-21T21:38:17.122+0000] {logging_utils.py:13} INFO - Duração total    : 0.72 segundos
+[2026-03-21T21:38:17.122+0000] {logging_utils.py:18} INFO - ============================================================
+[2026-03-21T21:38:17.136+0000] {python.py:237} INFO - Done. Returned value was: {'total_questions': 2757, 'output_json': '/tmp/enem_output/questions.json', 'output_csv': '/tmp/enem_output/questions.csv'}
+[2026-03-21T21:38:17.136+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-21T21:38:17.244+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=dag_enem_extraction, task_id=extract_all_questions, run_id=manual__2026-03-21T21:37:55.313924+00:00, execution_date=20260321T213755, start_date=20260321T213815, end_date=20260321T213817
+[2026-03-21T21:38:17.338+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-03-21T21:38:17.359+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-03-21T21:38:17.364+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
