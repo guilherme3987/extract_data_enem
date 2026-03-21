@@ -3543,3 +3543,10 @@ ImportError: cannot import name 'extract_all_questions' from 'extract_questions'
 [2026-03-21T22:15:16.331+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:15:16.330+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2026-03-21T22:15:16.351+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:15:16.351+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_enem_extraction to None, run_after=None
 [2026-03-21T22:15:16.378+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extract_data.py took 0.116 seconds
+[2026-03-21T22:15:47.189+0000] {processor.py:161} INFO - Started process (PID=396) to work on /opt/airflow/dags/extract_data.py
+[2026-03-21T22:15:47.190+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2026-03-21T22:15:47.193+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:15:47.193+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2026-03-21T22:15:47.214+0000] {processor.py:840} INFO - DAG(s) 'dag_enem_extraction' retrieved from /opt/airflow/dags/extract_data.py
+[2026-03-21T22:15:47.281+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:15:47.281+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-21T22:15:47.300+0000] {logging_mixin.py:188} INFO - [2026-03-21T22:15:47.300+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_enem_extraction to None, run_after=None
+[2026-03-21T22:15:47.331+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extract_data.py took 0.150 seconds
