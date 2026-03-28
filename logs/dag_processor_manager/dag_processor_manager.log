@@ -4414,3 +4414,13 @@ File Path                                   PID    Runtime      # DAGs    # Erro
 /opt/airflow/dags/config.py                                          0           0  0.20s           2026-03-28T18:47:52
 /opt/airflow/dags/filter_questions.py                                1           0  0.13s           2026-03-28T18:47:59
 ================================================================================
+[2026-03-28T18:48:50.655+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/filter_questions.py                                1           0  0.17s           2026-03-28T18:48:29
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.17s           2026-03-28T18:48:23
+/opt/airflow/dags/config.py                                          0           0  0.08s           2026-03-28T18:48:23
+================================================================================

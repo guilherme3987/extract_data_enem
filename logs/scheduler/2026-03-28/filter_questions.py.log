@@ -1524,3 +1524,6 @@ NameError: name 'BASE_PATH' is not defined
 [2026-03-28T18:48:29.373+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/filter_questions.py for tasks to queue
 [2026-03-28T18:48:29.374+0000] {logging_mixin.py:188} INFO - [2026-03-28T18:48:29.374+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/filter_questions.py
 [2026-03-28T18:48:29.390+0000] {processor.py:840} INFO - DAG(s) 'dag_filter_questions' retrieved from /opt/airflow/dags/filter_questions.py
+[2026-03-28T18:48:29.437+0000] {logging_mixin.py:188} INFO - [2026-03-28T18:48:29.437+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T18:48:29.458+0000] {logging_mixin.py:188} INFO - [2026-03-28T18:48:29.458+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_filter_questions to None, run_after=None
+[2026-03-28T18:48:29.492+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/filter_questions.py took 0.134 seconds
