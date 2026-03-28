@@ -3443,3 +3443,964 @@ File Path                          PID    Runtime      # DAGs    # Errors  Last 
 /opt/airflow/dags/extract_data.py                           1           0  0.24s           2026-03-21T22:19:23
 /opt/airflow/dags/config.py                                 0           0  0.07s           2026-03-21T22:19:29
 ================================================================================
+[2026-03-22T15:49:17.520+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2026-03-22T15:49:17.521+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2026-03-22T15:49:17.522+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-03-22T15:49:17.522+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-22T15:49:17.537+0000] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2026-03-22T15:49:17.669+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/config.py                   164  0.05s             0           0
+/opt/airflow/dags/extract_data_git_repo.py    161  0.06s             0           0
+================================================================================
+[2026-03-24T19:02:37.117+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2026-03-24T19:02:37.118+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2026-03-24T19:02:37.118+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-03-24T19:02:37.119+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-24T19:02:37.130+0000] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2026-03-24T19:02:37.303+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/config.py                   163  0.10s             0           0
+/opt/airflow/dags/extract_data_git_repo.py    159  0.11s             0           0
+================================================================================
+[2026-03-24T19:03:07.503+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py    170  0.02s             1           0  0.20s           2026-03-24T19:02:37
+/opt/airflow/dags/config.py                   173  0.01s             0           0  0.11s           2026-03-24T19:02:37
+================================================================================
+[2026-03-24T19:03:19.062+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2026-03-28T18:01:34.446+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2026-03-28T18:01:34.453+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2026-03-28T18:01:34.454+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-03-28T18:01:34.455+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-28T18:01:34.479+0000] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2026-03-28T18:01:35.332+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/config.py                   162  0.40s             0           0
+/opt/airflow/dags/extract_data_git_repo.py    160  0.53s             0           0
+================================================================================
+[2026-03-28T18:02:05.610+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  1.54s           2026-03-28T18:01:36
+/opt/airflow/dags/config.py                   170  0.01s             0           0  0.46s           2026-03-28T18:01:35
+================================================================================
+[2026-03-28T18:02:36.332+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/config.py                   180  0.01s             0           0  0.37s           2026-03-28T18:02:05
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.37s           2026-03-28T18:02:07
+================================================================================
+[2026-03-28T18:03:06.844+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.31s           2026-03-28T18:02:37
+/opt/airflow/dags/config.py                   190  0.03s             0           0  0.18s           2026-03-28T18:02:36
+================================================================================
+[2026-03-28T18:03:37.490+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py    200  0.15s             1           0  0.44s           2026-03-28T18:03:08
+/opt/airflow/dags/config.py                   202  0.03s             0           0  0.17s           2026-03-28T18:03:06
+================================================================================
+[2026-03-28T18:04:08.123+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  1.72s           2026-03-28T18:03:39
+/opt/airflow/dags/config.py                                          0           0  1.10s           2026-03-28T18:03:38
+================================================================================
+[2026-03-28T18:04:38.791+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.44s           2026-03-28T18:04:09
+/opt/airflow/dags/config.py                                          0           0  0.34s           2026-03-28T18:04:09
+================================================================================
+[2026-03-28T18:05:09.342+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.37s           2026-03-28T18:04:40
+/opt/airflow/dags/config.py                                          0           0  0.24s           2026-03-28T18:04:40
+================================================================================
+[2026-03-28T18:05:39.814+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.19s           2026-03-28T18:05:10
+/opt/airflow/dags/config.py                                          0           0  0.11s           2026-03-28T18:05:10
+================================================================================
+[2026-03-28T18:06:10.053+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.94s           2026-03-28T18:05:41
+/opt/airflow/dags/config.py                                          0           0  0.57s           2026-03-28T18:05:41
+================================================================================
+[2026-03-28T18:06:35.205+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-28T18:06:35.215+0000] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2026-03-28T18:06:40.293+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.19s           2026-03-28T18:06:12
+/opt/airflow/dags/config.py                                          0           0  0.10s           2026-03-28T18:06:11
+================================================================================
+[2026-03-28T18:07:10.817+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.34s           2026-03-28T18:06:42
+/opt/airflow/dags/config.py                                          0           0  0.19s           2026-03-28T18:06:42
+================================================================================
+[2026-03-28T18:07:41.282+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.24s           2026-03-28T18:07:13
+/opt/airflow/dags/config.py                                          0           0  0.16s           2026-03-28T18:07:12
+================================================================================
+[2026-03-28T18:08:11.684+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.18s           2026-03-28T18:07:43
+/opt/airflow/dags/config.py                                          0           0  0.10s           2026-03-28T18:07:43
+================================================================================
+[2026-03-28T18:08:42.153+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.31s           2026-03-28T18:08:14
+/opt/airflow/dags/config.py                                          0           0  0.17s           2026-03-28T18:08:13
+================================================================================
+[2026-03-28T18:09:12.874+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.74s           2026-03-28T18:08:44
+/opt/airflow/dags/config.py                                          0           0  0.41s           2026-03-28T18:08:44
+================================================================================
+[2026-03-28T18:09:43.587+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.48s           2026-03-28T18:09:15
+/opt/airflow/dags/config.py                                          0           0  0.38s           2026-03-28T18:09:15
+================================================================================
+[2026-03-28T18:10:14.018+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.18s           2026-03-28T18:09:45
+/opt/airflow/dags/config.py                                          0           0  0.09s           2026-03-28T18:09:45
+================================================================================
+[2026-03-28T18:10:44.667+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.47s           2026-03-28T18:10:16
+/opt/airflow/dags/config.py                                          0           0  0.20s           2026-03-28T18:10:16
+================================================================================
+[2026-03-28T18:11:15.048+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.16s           2026-03-28T18:10:46
+/opt/airflow/dags/config.py                                          0           0  0.08s           2026-03-28T18:10:46
+================================================================================
+[2026-03-28T18:11:35.364+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-28T18:11:35.374+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2026-03-28T18:11:45.538+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/filter_questions.py                                0           1  0.29s           2026-03-28T18:11:35
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.16s           2026-03-28T18:11:17
+/opt/airflow/dags/config.py                                          0           0  0.07s           2026-03-28T18:11:17
+================================================================================
+[2026-03-28T18:12:16.121+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.30s           2026-03-28T18:11:47
+/opt/airflow/dags/config.py                                          0           0  0.23s           2026-03-28T18:11:47
+/opt/airflow/dags/filter_questions.py                                0           1  0.12s           2026-03-28T18:11:58
+================================================================================
+[2026-03-28T18:12:46.586+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.18s           2026-03-28T18:12:18
+/opt/airflow/dags/config.py                                          0           0  0.10s           2026-03-28T18:12:18
+/opt/airflow/dags/filter_questions.py                                0           1  0.08s           2026-03-28T18:12:28
+================================================================================
+[2026-03-28T18:13:17.011+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.15s           2026-03-28T18:12:48
+/opt/airflow/dags/filter_questions.py                                0           1  0.08s           2026-03-28T18:12:58
+/opt/airflow/dags/config.py                                          0           0  0.07s           2026-03-28T18:12:48
+================================================================================
+[2026-03-28T18:13:47.434+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.14s           2026-03-28T18:13:19
+/opt/airflow/dags/filter_questions.py                                0           1  0.09s           2026-03-28T18:13:29
+/opt/airflow/dags/config.py                                          0           0  0.07s           2026-03-28T18:13:19
+================================================================================
+[2026-03-28T18:14:17.878+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.16s           2026-03-28T18:13:49
+/opt/airflow/dags/filter_questions.py                                0           1  0.08s           2026-03-28T18:13:59
+/opt/airflow/dags/config.py                                          0           0  0.08s           2026-03-28T18:13:49
+================================================================================
+[2026-03-28T18:14:48.376+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.17s           2026-03-28T18:14:20
+/opt/airflow/dags/filter_questions.py                                0           1  0.09s           2026-03-28T18:14:30
+/opt/airflow/dags/config.py                                          0           0  0.08s           2026-03-28T18:14:19
+================================================================================
+[2026-03-28T18:15:18.912+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.21s           2026-03-28T18:14:50
+/opt/airflow/dags/config.py                                          0           0  0.14s           2026-03-28T18:14:50
+/opt/airflow/dags/filter_questions.py                                0           1  0.08s           2026-03-28T18:15:00
+================================================================================
+[2026-03-28T18:15:49.275+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/filter_questions.py                                1           0  0.31s           2026-03-28T18:15:49
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.15s           2026-03-28T18:15:21
+/opt/airflow/dags/config.py                                          0           0  0.07s           2026-03-28T18:15:21
+================================================================================
+[2026-03-28T18:16:19.513+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.26s           2026-03-28T18:15:51
+/opt/airflow/dags/filter_questions.py                                0           1  0.21s           2026-03-28T18:16:05
+/opt/airflow/dags/config.py                                          0           0  0.08s           2026-03-28T18:15:51
+================================================================================
+[2026-03-28T18:16:35.820+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-28T18:16:35.825+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2026-03-28T18:16:49.988+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.15s           2026-03-28T18:16:21
+/opt/airflow/dags/filter_questions.py                                0           1  0.09s           2026-03-28T18:16:35
+/opt/airflow/dags/config.py                                          0           0  0.07s           2026-03-28T18:16:21
+================================================================================
+[2026-03-28T18:17:20.654+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/filter_questions.py                                0           1  0.37s           2026-03-28T18:17:06
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.21s           2026-03-28T18:16:52
+/opt/airflow/dags/config.py                                          0           0  0.07s           2026-03-28T18:16:52
+================================================================================
+[2026-03-28T18:17:50.862+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.92s           2026-03-28T18:17:23
+/opt/airflow/dags/config.py                                          0           0  0.71s           2026-03-28T18:17:23
+/opt/airflow/dags/filter_questions.py                                0           1  0.16s           2026-03-28T18:17:36
+================================================================================
+[2026-03-28T18:18:21.302+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.42s           2026-03-28T18:17:54
+/opt/airflow/dags/config.py                                          0           0  0.12s           2026-03-28T18:17:54
+/opt/airflow/dags/filter_questions.py                                0           1  0.08s           2026-03-28T18:18:07
+================================================================================
+[2026-03-28T18:18:51.820+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.22s           2026-03-28T18:18:24
+/opt/airflow/dags/config.py                                          0           0  0.12s           2026-03-28T18:18:24
+/opt/airflow/dags/filter_questions.py                                0           1  0.10s           2026-03-28T18:18:37
+================================================================================
+[2026-03-28T18:19:22.277+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.18s           2026-03-28T18:18:55
+/opt/airflow/dags/filter_questions.py                                0           1  0.09s           2026-03-28T18:19:08
+/opt/airflow/dags/config.py                                          0           0  0.08s           2026-03-28T18:18:55
+================================================================================
+[2026-03-28T18:19:52.697+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.21s           2026-03-28T18:19:25
+/opt/airflow/dags/config.py                                          0           0  0.11s           2026-03-28T18:19:25
+/opt/airflow/dags/filter_questions.py                                0           1  0.08s           2026-03-28T18:19:38
+================================================================================
+[2026-03-28T18:20:23.139+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.17s           2026-03-28T18:19:56
+/opt/airflow/dags/config.py                                          0           0  0.09s           2026-03-28T18:19:55
+/opt/airflow/dags/filter_questions.py                                0           1  0.08s           2026-03-28T18:20:09
+================================================================================
+[2026-03-28T18:20:53.605+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.16s           2026-03-28T18:20:26
+/opt/airflow/dags/filter_questions.py                                0           1  0.09s           2026-03-28T18:20:39
+/opt/airflow/dags/config.py                                          0           0  0.08s           2026-03-28T18:20:26
+================================================================================
+[2026-03-28T18:21:24.075+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.17s           2026-03-28T18:20:56
+/opt/airflow/dags/config.py                                          0           0  0.10s           2026-03-28T18:20:56
+/opt/airflow/dags/filter_questions.py                                0           1  0.07s           2026-03-28T18:21:10
+================================================================================
+[2026-03-28T18:21:36.371+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-28T18:21:36.381+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2026-03-28T18:21:54.551+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.21s           2026-03-28T18:21:27
+/opt/airflow/dags/config.py                                          0           0  0.09s           2026-03-28T18:21:27
+/opt/airflow/dags/filter_questions.py                                0           1  0.07s           2026-03-28T18:21:40
+================================================================================
+[2026-03-28T18:22:24.977+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.15s           2026-03-28T18:21:57
+/opt/airflow/dags/filter_questions.py                                0           1  0.08s           2026-03-28T18:22:10
+/opt/airflow/dags/config.py                                          0           0  0.07s           2026-03-28T18:21:57
+================================================================================
+[2026-03-28T18:22:55.438+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.18s           2026-03-28T18:22:28
+/opt/airflow/dags/filter_questions.py                                0           1  0.09s           2026-03-28T18:22:41
+/opt/airflow/dags/config.py                                          0           0  0.07s           2026-03-28T18:22:28
+================================================================================
+[2026-03-28T18:23:26.017+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.17s           2026-03-28T18:22:58
+/opt/airflow/dags/filter_questions.py                                0           1  0.09s           2026-03-28T18:23:11
+/opt/airflow/dags/config.py                                          0           0  0.08s           2026-03-28T18:22:58
+================================================================================
+[2026-03-28T18:23:56.527+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.21s           2026-03-28T18:23:29
+/opt/airflow/dags/filter_questions.py                                0           1  0.09s           2026-03-28T18:23:42
+/opt/airflow/dags/config.py                                          0           0  0.09s           2026-03-28T18:23:29
+================================================================================
+[2026-03-28T18:24:26.979+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.15s           2026-03-28T18:23:59
+/opt/airflow/dags/filter_questions.py                                0           1  0.10s           2026-03-28T18:24:12
+/opt/airflow/dags/config.py                                          0           0  0.08s           2026-03-28T18:23:59
+================================================================================
+[2026-03-28T18:24:57.453+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.18s           2026-03-28T18:24:30
+/opt/airflow/dags/filter_questions.py                                0           1  0.10s           2026-03-28T18:24:43
+/opt/airflow/dags/config.py                                          0           0  0.07s           2026-03-28T18:24:30
+================================================================================
+[2026-03-28T18:25:27.888+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.15s           2026-03-28T18:25:00
+/opt/airflow/dags/filter_questions.py                                0           1  0.10s           2026-03-28T18:25:13
+/opt/airflow/dags/config.py                                          0           0  0.07s           2026-03-28T18:25:00
+================================================================================
+[2026-03-28T18:25:58.297+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.20s           2026-03-28T18:25:31
+/opt/airflow/dags/config.py                                          0           0  0.10s           2026-03-28T18:25:31
+/opt/airflow/dags/filter_questions.py                                0           1  0.08s           2026-03-28T18:25:44
+================================================================================
+[2026-03-28T18:26:28.722+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.14s           2026-03-28T18:26:01
+/opt/airflow/dags/filter_questions.py                                0           1  0.07s           2026-03-28T18:26:14
+/opt/airflow/dags/config.py                                          0           0  0.06s           2026-03-28T18:26:01
+================================================================================
+[2026-03-28T18:26:36.854+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-28T18:26:36.864+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2026-03-28T18:26:59.126+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.14s           2026-03-28T18:26:31
+/opt/airflow/dags/filter_questions.py                                0           1  0.08s           2026-03-28T18:26:44
+/opt/airflow/dags/config.py                                          0           0  0.07s           2026-03-28T18:26:31
+================================================================================
+[2026-03-28T18:27:29.554+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.14s           2026-03-28T18:27:02
+/opt/airflow/dags/filter_questions.py                                0           1  0.08s           2026-03-28T18:27:15
+/opt/airflow/dags/config.py                                          0           0  0.06s           2026-03-28T18:27:02
+================================================================================
+[2026-03-28T18:27:59.991+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.16s           2026-03-28T18:27:32
+/opt/airflow/dags/filter_questions.py                                0           1  0.09s           2026-03-28T18:27:45
+/opt/airflow/dags/config.py                                          0           0  0.07s           2026-03-28T18:27:32
+================================================================================
+[2026-03-28T18:28:30.433+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.15s           2026-03-28T18:28:03
+/opt/airflow/dags/filter_questions.py                                0           1  0.09s           2026-03-28T18:28:16
+/opt/airflow/dags/config.py                                          0           0  0.07s           2026-03-28T18:28:03
+================================================================================
+[2026-03-28T18:29:00.879+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.16s           2026-03-28T18:28:33
+/opt/airflow/dags/config.py                                          0           0  0.10s           2026-03-28T18:28:33
+/opt/airflow/dags/filter_questions.py                                0           1  0.07s           2026-03-28T18:28:46
+================================================================================
+[2026-03-28T18:29:31.298+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.14s           2026-03-28T18:29:04
+/opt/airflow/dags/filter_questions.py                                0           1  0.08s           2026-03-28T18:29:17
+/opt/airflow/dags/config.py                                          0           0  0.07s           2026-03-28T18:29:03
+================================================================================
+[2026-03-28T18:30:01.708+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.13s           2026-03-28T18:29:34
+/opt/airflow/dags/filter_questions.py                                0           1  0.07s           2026-03-28T18:29:47
+/opt/airflow/dags/config.py                                          0           0  0.06s           2026-03-28T18:29:34
+================================================================================
+[2026-03-28T18:30:32.137+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.14s           2026-03-28T18:30:04
+/opt/airflow/dags/filter_questions.py                                0           1  0.08s           2026-03-28T18:30:17
+/opt/airflow/dags/config.py                                          0           0  0.07s           2026-03-28T18:30:04
+================================================================================
+[2026-03-28T18:31:02.565+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.14s           2026-03-28T18:30:35
+/opt/airflow/dags/filter_questions.py                                0           1  0.08s           2026-03-28T18:30:48
+/opt/airflow/dags/config.py                                          0           0  0.07s           2026-03-28T18:30:35
+================================================================================
+[2026-03-28T18:31:32.964+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.25s           2026-03-28T18:31:05
+/opt/airflow/dags/config.py                                          0           0  0.11s           2026-03-28T18:31:05
+/opt/airflow/dags/filter_questions.py                                0           1  0.08s           2026-03-28T18:31:18
+================================================================================
+[2026-03-28T18:31:37.097+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-28T18:31:37.102+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2026-03-28T18:32:03.472+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/filter_questions.py                                0           1  0.64s           2026-03-28T18:31:49
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.15s           2026-03-28T18:31:36
+/opt/airflow/dags/config.py                                          0           0  0.07s           2026-03-28T18:31:36
+================================================================================
+[2026-03-28T18:32:34.024+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.19s           2026-03-28T18:32:06
+/opt/airflow/dags/config.py                                          0           0  0.12s           2026-03-28T18:32:06
+/opt/airflow/dags/filter_questions.py                                0           1  0.08s           2026-03-28T18:32:21
+================================================================================
+[2026-03-28T18:33:04.951+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.31s           2026-03-28T18:32:37
+/opt/airflow/dags/filter_questions.py        1030  0.01s             0           1  0.16s           2026-03-28T18:33:04
+/opt/airflow/dags/config.py                                          0           0  0.12s           2026-03-28T18:32:37
+================================================================================
+[2026-03-28T18:33:35.419+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.29s           2026-03-28T18:33:08
+/opt/airflow/dags/config.py                                          0           0  0.16s           2026-03-28T18:33:08
+/opt/airflow/dags/filter_questions.py                                0           1  0.08s           2026-03-28T18:33:28
+================================================================================
+[2026-03-28T18:34:05.901+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.16s           2026-03-28T18:33:38
+/opt/airflow/dags/filter_questions.py                                0           1  0.09s           2026-03-28T18:34:00
+/opt/airflow/dags/config.py                                          0           0  0.08s           2026-03-28T18:33:38
+================================================================================
+[2026-03-28T18:34:36.339+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.16s           2026-03-28T18:34:09
+/opt/airflow/dags/config.py                                          0           0  0.08s           2026-03-28T18:34:09
+/opt/airflow/dags/filter_questions.py                                0           1  0.07s           2026-03-28T18:34:17
+================================================================================
+[2026-03-28T18:35:06.762+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.13s           2026-03-28T18:34:39
+/opt/airflow/dags/filter_questions.py                                0           1  0.08s           2026-03-28T18:34:47
+/opt/airflow/dags/config.py                                          0           0  0.06s           2026-03-28T18:34:39
+================================================================================
+[2026-03-28T18:35:37.193+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.18s           2026-03-28T18:35:09
+/opt/airflow/dags/filter_questions.py                                0           1  0.09s           2026-03-28T18:35:35
+/opt/airflow/dags/config.py                                          0           0  0.07s           2026-03-28T18:35:09
+================================================================================
+[2026-03-28T18:36:07.706+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.29s           2026-03-28T18:35:40
+/opt/airflow/dags/filter_questions.py                                0           1  0.12s           2026-03-28T18:35:40
+/opt/airflow/dags/config.py                                          0           0  0.11s           2026-03-28T18:35:40
+================================================================================
+[2026-03-28T18:36:37.703+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-28T18:36:37.718+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2026-03-28T18:36:38.751+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.58s           2026-03-28T18:36:11
+/opt/airflow/dags/config.py                                          0           0  0.17s           2026-03-28T18:36:11
+/opt/airflow/dags/filter_questions.py                                0           1  0.12s           2026-03-28T18:36:14
+================================================================================
+[2026-03-28T18:37:09.270+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.21s           2026-03-28T18:36:41
+/opt/airflow/dags/config.py                                          0           0  0.10s           2026-03-28T18:36:41
+/opt/airflow/dags/filter_questions.py                                0           1  0.09s           2026-03-28T18:36:45
+================================================================================
+[2026-03-28T18:37:39.988+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.17s           2026-03-28T18:37:12
+/opt/airflow/dags/filter_questions.py                                0           1  0.11s           2026-03-28T18:37:37
+/opt/airflow/dags/config.py                                          0           0  0.08s           2026-03-28T18:37:12
+================================================================================
+[2026-03-28T18:38:10.492+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.21s           2026-03-28T18:37:43
+/opt/airflow/dags/config.py                                          0           0  0.12s           2026-03-28T18:37:43
+/opt/airflow/dags/filter_questions.py                                0           1  0.08s           2026-03-28T18:37:54
+================================================================================
+[2026-03-28T18:38:41.031+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.37s           2026-03-28T18:38:13
+/opt/airflow/dags/config.py                                          0           0  0.21s           2026-03-28T18:38:13
+/opt/airflow/dags/filter_questions.py                                0           1  0.10s           2026-03-28T18:38:18
+================================================================================
+[2026-03-28T18:39:11.715+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.14s           2026-03-28T18:38:44
+/opt/airflow/dags/config.py                                          0           0  0.10s           2026-03-28T18:38:44
+/opt/airflow/dags/filter_questions.py                                0           1  0.10s           2026-03-28T18:38:59
+================================================================================
+[2026-03-28T18:39:42.180+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.18s           2026-03-28T18:39:14
+/opt/airflow/dags/config.py                                          0           0  0.09s           2026-03-28T18:39:14
+/opt/airflow/dags/filter_questions.py                                0           1  0.07s           2026-03-28T18:39:19
+================================================================================
+[2026-03-28T18:40:12.700+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.17s           2026-03-28T18:39:45
+/opt/airflow/dags/config.py                                          0           0  0.08s           2026-03-28T18:39:45
+/opt/airflow/dags/filter_questions.py                                0           1  0.07s           2026-03-28T18:39:54
+================================================================================
+[2026-03-28T18:40:43.166+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.17s           2026-03-28T18:40:15
+/opt/airflow/dags/filter_questions.py                                0           1  0.08s           2026-03-28T18:40:24
+/opt/airflow/dags/config.py                                          0           0  0.07s           2026-03-28T18:40:15
+================================================================================
+[2026-03-28T18:41:13.665+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/filter_questions.py                                1           0  0.56s           2026-03-28T18:41:08
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.21s           2026-03-28T18:40:46
+/opt/airflow/dags/config.py                                          0           0  0.10s           2026-03-28T18:40:46
+================================================================================
+[2026-03-28T18:41:38.027+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-28T18:41:38.037+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2026-03-28T18:41:44.155+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/filter_questions.py                                1           0  0.20s           2026-03-28T18:41:39
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.18s           2026-03-28T18:41:16
+/opt/airflow/dags/config.py                                          0           0  0.10s           2026-03-28T18:41:16
+================================================================================
+[2026-03-28T18:42:14.559+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/filter_questions.py                                1           0  0.16s           2026-03-28T18:42:09
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.15s           2026-03-28T18:41:47
+/opt/airflow/dags/config.py                                          0           0  0.07s           2026-03-28T18:41:47
+================================================================================
+[2026-03-28T18:42:45.007+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/filter_questions.py                                1           0  0.17s           2026-03-28T18:42:40
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.16s           2026-03-28T18:42:17
+/opt/airflow/dags/config.py                                          0           0  0.08s           2026-03-28T18:42:17
+================================================================================
+[2026-03-28T18:43:15.497+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.23s           2026-03-28T18:42:48
+/opt/airflow/dags/filter_questions.py                                1           0  0.16s           2026-03-28T18:43:10
+/opt/airflow/dags/config.py                                          0           0  0.12s           2026-03-28T18:42:48
+================================================================================
+[2026-03-28T18:43:45.918+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/filter_questions.py                                1           0  0.15s           2026-03-28T18:43:40
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.14s           2026-03-28T18:43:18
+/opt/airflow/dags/config.py                                          0           0  0.07s           2026-03-28T18:43:18
+================================================================================
+[2026-03-28T18:44:16.334+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/filter_questions.py                                1           0  0.17s           2026-03-28T18:44:11
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.15s           2026-03-28T18:43:49
+/opt/airflow/dags/config.py                                          0           0  0.07s           2026-03-28T18:43:49
+================================================================================
+[2026-03-28T18:44:47.014+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.20s           2026-03-28T18:44:19
+/opt/airflow/dags/config.py                                          0           0  0.14s           2026-03-28T18:44:19
+/opt/airflow/dags/filter_questions.py                                0           1  0.10s           2026-03-28T18:44:39
+================================================================================
+[2026-03-28T18:45:17.282+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/filter_questions.py                                1           0  0.68s           2026-03-28T18:45:15
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.28s           2026-03-28T18:44:50
+/opt/airflow/dags/config.py                                          0           0  0.17s           2026-03-28T18:44:50
+================================================================================
+[2026-03-28T18:45:47.781+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/filter_questions.py                                1           0  0.20s           2026-03-28T18:45:45
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.15s           2026-03-28T18:45:20
+/opt/airflow/dags/config.py                                          0           0  0.08s           2026-03-28T18:45:20
+================================================================================
+[2026-03-28T18:46:18.201+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/filter_questions.py                                1           0  0.22s           2026-03-28T18:46:16
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.15s           2026-03-28T18:45:50
+/opt/airflow/dags/config.py                                          0           0  0.07s           2026-03-28T18:45:50
+================================================================================
+[2026-03-28T18:46:38.533+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-03-28T18:46:38.540+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2026-03-28T18:46:48.651+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/filter_questions.py                                1           0  0.34s           2026-03-28T18:46:46
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.15s           2026-03-28T18:46:21
+/opt/airflow/dags/config.py                                          0           0  0.07s           2026-03-28T18:46:21
+================================================================================
+[2026-03-28T18:47:19.192+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.23s           2026-03-28T18:46:51
+/opt/airflow/dags/filter_questions.py                                1           0  0.16s           2026-03-28T18:46:58
+/opt/airflow/dags/config.py                                          0           0  0.13s           2026-03-28T18:46:51
+================================================================================
+[2026-03-28T18:47:49.658+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/filter_questions.py                                1           0  0.23s           2026-03-28T18:47:28
+/opt/airflow/dags/extract_data_git_repo.py                           1           0  0.19s           2026-03-28T18:47:22
+/opt/airflow/dags/config.py                                          0           0  0.11s           2026-03-28T18:47:22
+================================================================================
