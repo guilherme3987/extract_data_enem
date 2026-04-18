@@ -19,7 +19,7 @@ DATA_DIR = "/opt/airflow/data"
 INPUT_CSV_PATH = "dags/data/questions_math.csv"
 TEMP_CSV_PATH = "dags/data/questions_temp.csv"
 FINAL_CSV_PATH = "dags/data/questions_final.csv"
-IMAGES_DIR = "dags/data/images" # <-- Corrigido as duas barras
+IMAGES_DIR = "dags/data/images" 
 
 # ==========================================
 # Funções dos PythonOperators
@@ -138,7 +138,7 @@ def download_images():
     print("Download de imagens finalizado.")
 
 def save_final_csv():
-    """Task 5: Salvando CSV final e reordenando IDs"""
+    """Task 5: Salvando CSV final, limpando o markdown e reordenando IDs"""
     df = pd.read_csv(TEMP_CSV_PATH)
 
     # Elimina questões com imagem marcadas como True mas sem caminho de imagem salvo
@@ -147,6 +147,15 @@ def save_final_csv():
     # Remove colunas auxiliares
     cols_to_drop = [col for col in ['image_url', 'image_status'] if col in df_final.columns]
     df_final.drop(columns=cols_to_drop, inplace=True)
+
+    # ==========================================
+    # NOVO: Limpeza da coluna de Contexto
+    # ==========================================
+    # O regex r'!\[.*?\]\(.*?\)' encontra e apaga qualquer marcação de imagem markdown (ex: ![](https://...))
+    if 'context' in df_final.columns:
+        df_final['context'] = df_final['context'].astype(str).apply(
+            lambda text: re.sub(r'!\[.*?\]\(.*?\)', '', text).strip()
+        )
 
     # Como você deletou várias linhas corrompidas, os IDs ficaram pulando (ex: 1, 4, 5, 9).
     # Isso refaz a contagem numérica da coluna 'index' perfeitamente de 1 em diante:
@@ -159,7 +168,7 @@ def save_final_csv():
     if os.path.exists(TEMP_CSV_PATH):
         os.remove(TEMP_CSV_PATH)
 
-    print(f"Pipeline concluído! CSV Final salvo em: {FINAL_CSV_PATH}")
+    print(f"Pipeline concluído! Textos limpos e CSV Final salvo em: {FINAL_CSV_PATH}")
 
 # ==========================================
 # Definição da DAG
