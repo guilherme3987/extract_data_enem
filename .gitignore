@@ -7,6 +7,8 @@ Dockerfile
 # Airflow
 logs/
 
+# Pasta das Imagens
+questions_images/
 # Cache Python
 __pycache__/
 **/__pycache__/
